@@ -1,7 +1,8 @@
 package com.liveproject.salonapi.repository;
 
-import org.springframework.stereotype.Repository;
+import com.liveproject.salonapi.domain.Slot;
+import org.springframework.data.repository.CrudRepository;
 
-@Repository
-public class SlotRepo {
+public interface SlotRepo extends CrudRepository<Slot,Long> {
+
 }
