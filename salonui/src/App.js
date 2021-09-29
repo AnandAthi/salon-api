@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <title> Salon Center</title>
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a className="navbar-brand" href="/">Ar Salon & Day Spa</a>
+        </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
